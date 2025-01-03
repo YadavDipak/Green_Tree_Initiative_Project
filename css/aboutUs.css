@@ -1,0 +1,362 @@
+/* The issue section -------------------------- */
+.about-section-issue {
+  background: url(../assets/about-us/annie-spratt-427339-unsplash@2x.png) 0% 0%
+    no-repeat padding-box;
+  background-size: cover;
+  height: 15rem;
+}
+
+.container-about-section-issue {
+  position: relative;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.about-text-climate {
+  height: 7rem;
+  align-self: center;
+  margin-top: 4rem;
+}
+
+.about-issue-box {
+  margin-left: 65%;
+  padding: 4%;
+  margin-top: -5rem;
+  background: #ffffff;
+  border: none;
+  position: relative;
+}
+
+.about-issue-box .about-content {
+  font-weight: bold;
+  line-height: 20px;
+  font-family: poynter-oldstyle-display, sans-serif;
+  color: #354463;
+  background-color: #ffffffff;
+}
+
+.about-issue {
+  position: absolute;
+  top: -1.5em;
+  background-color: #354463;
+  color: #ffffff;
+  padding: 10px;
+  min-width: 100px;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+/* What we do section ---- */
+
+.container-what-we-do-section {
+  background-color: #354463;
+}
+
+.what-we-do-box {
+  background-color: white;
+  padding: 0.8rem;
+  max-width: 7rem;
+  font-size: smaller;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5rem;
+  color: #354463;
+}
+
+.what-we-do-heading {
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+/* Grid Container */
+.about-icons-grid-container {
+  display: grid;
+  gap: 2rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.do-card:hover {
+  transform: translateY(-5px);
+}
+
+.do-icon {
+  margin-bottom: 0.5rem;
+}
+
+.do-icon img {
+  max-width: 30%;
+}
+
+.do-card h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.do-card p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 11px;
+}
+
+/* OUT TEAM Section */
+
+.container-our-team-section {
+  background-color: #ffffff;
+}
+
+.our-team-box {
+  background-color: #354463;
+  padding: 0.8rem;
+  max-width: 7rem;
+  font-size: smaller;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5rem;
+  color: #ffffff;
+}
+
+.meet-team-container {
+  display: flex;
+  gap: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  color: #354463;
+}
+.our-team-heading {
+  font-weight: bold;
+  font-size: 2rem;
+  max-width: 25rem;
+  line-height: 2.5rem;
+}
+.meet-team-content {
+  font-size: 14px;
+  max-width: 22rem;
+  line-height: 1.2rem;
+}
+
+/* Grid Container */
+.team-grid-container {
+  display: grid;
+  gap: 3rem;
+  margin-bottom: 5rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-right: 3%;
+}
+
+.team-card {
+  margin-bottom: 3rem;
+  position: relative;
+  /* justify-content: center; */
+}
+
+.team-card:hover {
+  position: relative;
+  transform: translateY(-5px);
+}
+
+.members-picture {
+  display: flex;
+  /* justify-content: center; */
+}
+.members-picture img {
+  width: 100%;
+  height: auto;
+}
+
+.members-title {
+  background-color: #354463;
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 12px;
+  min-width: 90%;
+  position: absolute;
+  margin-left: 10%;
+}
+
+/* OUR Impact Section */
+.impact-section-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(53, 68, 99, 0.4),
+      rgba(53, 68, 99, 0.4)
+    ),
+    url("../assets/about-us/Impact\ Background@2x.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  background-color: rgb(53, 68, 99);
+  /* height: 500px; */
+}
+
+.impact-and-para-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  padding-bottom: 7rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  width: 90%;
+}
+
+.impact-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: white;
+  color: rgb(53, 68, 99);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+}
+.impact-para {
+  width: 90%;
+  padding-top: 2rem;
+}
+
+.impact-para p {
+  padding-top: 1.4rem;
+  width: 100%;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 4rem;
+  text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
+}
+
+.impact-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  padding-bottom: 3rem;
+  gap: 4rem;
+  width: 80%;
+}
+
+.impact {
+  padding-bottom: 1rem;
+}
+
+.impact h1 {
+  font-size: 4rem;
+  padding-bottom: 0.5rem;
+}
+
+.impact p {
+  font-size: 1rem;
+  text-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
+}
+
+.tk-flood-std {
+  font-family: "flood-std", sans-serif;
+}
+
+/* Take action section */
+
+.lets-take-action {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(53, 68, 99);
+  color: white;
+  /* justify-content: center;
+  align-items: center; */
+  padding: 2rem;
+  padding-bottom: 3rem;
+}
+
+.action-para {
+  margin-top: 1rem;
+  font-size: 3rem;
+  width: 70%;
+  padding: 1rem;
+  text-align: left;
+  line-height: 5rem;
+  align-self: flex-start;
+  padding-bottom: 4rem;
+}
+
+.take-action-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 2rem;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+
+.women-image {
+  width: 100%;
+  background-image: url("../assets/about-us/Image@2x.png");
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 1;
+  display: flex;
+
+  align-items: start;
+}
+
+.year-btn {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: rgb(53, 68, 99);
+  padding: 0.6rem 1.7rem;
+  font-size: 1rem;
+  width: fit-content;
+  margin-top: -1rem;
+  margin-left: 4rem;
+}
+
+.training-container {
+  padding: 2rem;
+  background-color: white;
+  color: rgb(53, 68, 99);
+}
+
+.training-container > .para1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0.8rem;
+}
+
+.training-container > .para2 {
+  font-size: 1rem;
+  padding: 0.8rem;
+  line-height: 1.2rem;
+}
+/* .training-container > .para1,
+.para2 {
+  width: auto;
+} */
+.women-image {
+  aspect-ratio: 1.5;
+}
+
+.read-more {
+  display: inline-block;
+  background-color: rgb(193, 247, 213);
+  padding: 1rem 1.2rem;
+  margin-left: 1rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(53, 68, 99);
+  border: none;
+}
+
+.read-more:hover,
+.about-take-action-button:hover {
+  background-color: rgb(53, 68, 99);
+  transition: 200ms ease;
+  color: rgb(193, 247, 213);
+}

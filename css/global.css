@@ -1,0 +1,74 @@
+/* Global */
+
+body {
+  background: #ffffff;
+  font-family: Helvetica, Sans-Serif;
+}
+
+@font-face {
+  font-family: ‘flood-std’;
+  src: url("https://use.typekit.net/pf/typt/khwz/n4/l?subset_id=1&fvd=n4&ec_token=3bb2a6e53c9684ffdc9a9bf7185b2a6276e0698d66f4110a2ab9340afa69d4d766077cf2280e970caeacca0e54695db78a301448dd3861150fb50e40c80a0eba6808383a5b5031fda18044fa921293d018238cd0ea2f18d9d946965f33abc99a8b3bb0b6f919a1adc58beb401bf1b72b");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://p.typekit.net/p.css?s=1&k=hdt7flo&ht=tk&f=18085&a=270299677&app=typekit&e=css");
+
+@font-face {
+  font-family: "flood-std";
+  src: url("https://use.typekit.net/af/6da923/000000000000000000012fc3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/6da923/000000000000000000012fc3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/6da923/000000000000000000012fc3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+.big-button {
+  font-family: Helvetica, sans-serif;
+  position: relative;
+  bottom: 0.8rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  background: #c1f7d5;
+  color: #354463;
+  width: 7rem;
+  /* height: 1.6em; */
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 2rem;
+  text-transform: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+}
+
+.mobile-display-btn {
+  display: none;
+}
+
+.legend {
+  width: 10em;
+  height: 2.5em;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 0.7em;
+  color: #ffffff;
+  background-color: #354463;
+  text-align: center;
+  line-height: 2.5em;
+  text-transform: uppercase;
+}

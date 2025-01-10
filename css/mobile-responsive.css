@@ -565,7 +565,7 @@
 /* About US */
 @media all and (max-width: 767px) {
   .about-section-issue {
-    margin-top: 3rem;
+    margin-top: 1rem;
     background-size: cover;
     height: 33rem;
     background-position: center;

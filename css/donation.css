@@ -10,7 +10,7 @@
   margin-right: unset;
   width: 7em;
   margin: auto;
-  padding-bottom: 4em;
+  padding-bottom: 1em;
 }
 
 .donation-form {
@@ -178,7 +178,7 @@ form .payment-form a {
     height: 85%;
     flex-flow: column-reverse;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
   }
 
   form {

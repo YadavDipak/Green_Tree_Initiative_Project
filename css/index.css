@@ -468,6 +468,7 @@
 
   .image-container {
     position: relative;
+    margin-right: 1rem;
   }
 
   .stories-legend {
@@ -675,7 +676,7 @@
     display: flex;
     flex-flow: row-reverse nowrap;
     margin-top: 6em;
-    margin-left: 1em;
+    margin-left: 0;
     height: 30em;
   }
 

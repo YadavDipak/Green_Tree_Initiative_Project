@@ -29,7 +29,7 @@
 .issue-legend {
   position: absolute;
   top: -1em;
-  left: 3em;
+  left: 4em;
 }
 
 .box-wrap {
@@ -60,7 +60,7 @@
   opacity: 0.8;
   font-size: 0.7em;
   margin-left: 4em;
-  padding-bottom: 1.4em;
+  padding-bottom: 4.4em;
 }
 
 .text-link a {
@@ -79,6 +79,7 @@
   height: 10em;
   align-self: center;
   margin-right: 14%;
+  margin-top: -3%;
 }
 
 /* Take Action Section */
@@ -167,7 +168,7 @@
 .what-we-do-boxes {
   display: flex;
   height: 55%;
-  width: 100%;
+  width: 98%;
   flex-flow: row nowrap;
   justify-content: flex-start;
   color: #354463;
@@ -231,6 +232,7 @@
   background-size: cover;
   background-position: center;
   height: 60rem;
+  padding-bottom: 4rem;
 }
 
 .container-section-did-you-know {
@@ -405,11 +407,12 @@
 
 @media all and (max-width: 1280px) {
   .section-stories {
-    height: 50rem;
+    height: 40rem;
   }
 
   .container-section-stories {
     height: 100%;
+    width: 60rem;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -420,17 +423,19 @@
     flex-flow: row nowrap;
     align-items: center;
     position: relative;
-    margin-left: 4em;
+    margin-left: 2em;
   }
 
   .stories-quote {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     position: relative;
     z-index: 1;
     left: 2.5em;
     display: flex;
     flex-flow: row wrap;
     height: auto;
-    width: 37.5%;
+    width: 48.5%;
     justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
@@ -627,10 +632,11 @@
   .event-wrap {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    justify-content: start;
     margin-left: 1em;
     height: 37em;
     width: 35%;
+    gap: 2rem;
   }
 
   .event-wrap h2 {
@@ -645,15 +651,15 @@
   .event-wrap p {
     color: #ffffff;
     font-weight: lighter;
-    font-size: 0.8em;
+    font-size: 1em;
     width: 100%;
     line-height: 1.4em;
-    margin-top: -em;
+    /* margin-top: -em; */
   }
 
   .event-wrap .read-more {
     position: relative;
-    top: -4em;
+    top: 1em;
     font-size: 0.7em;
   }
 

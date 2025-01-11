@@ -332,6 +332,7 @@
   .container-section-stories {
     height: 100%;
     display: flex;
+    width: 80%;
   }
 
   .stories-wrap {
@@ -436,6 +437,7 @@
     margin: auto;
     height: 100%;
     width: 100%;
+    gap: 0;
   }
 
   .event-wrap h2 {
@@ -687,6 +689,7 @@
   .take-action-container {
     grid-template-columns: repeat(1, 1fr);
     padding: 1rem;
+    margin-top: 0rem;
   }
 
   .training-container > .para1 {
@@ -711,6 +714,7 @@
   .women-image {
     justify-content: center;
     text-align: center;
+    margin-top: 2rem;
   }
   .year-btn {
     margin-left: 0;

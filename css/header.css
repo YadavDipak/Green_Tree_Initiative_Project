@@ -31,6 +31,7 @@
   font-family: Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 0.8rem;
+  margin-right: -35px;
 }
 
 .nav-links-container a {
@@ -64,7 +65,7 @@
   #logo {
     font-weight: bold;
     padding-top: 2em;
-    width: 25%;
+    width: 20%;
     margin-right: auto;
   }
 
@@ -79,6 +80,7 @@
     justify-content: space-between;
     font-size: 0.8em;
     padding-top: 2em;
+    margin-right: 0px;
   }
 
   .nav-donate {
@@ -98,7 +100,7 @@
     height: 8.2em;
     flex-flow: row nowrap;
     min-height: 20%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     position: relative;
   }
 

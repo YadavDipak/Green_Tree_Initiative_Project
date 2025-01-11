@@ -83,7 +83,9 @@ footer {
     align-items: center;
     height: 100%;
   }
-
+  .links p {
+    text-decoration: underline;
+  }
   .container-footer #logo {
     font-size: 1.1em;
     width: 25%;
@@ -168,7 +170,9 @@ footer {
     left: 0;
     line-height: 1.2em;
   }
-
+  .links p {
+    text-decoration: underline;
+  }
   .footer-wrap {
     display: flex;
     flex-flow: column wrap;

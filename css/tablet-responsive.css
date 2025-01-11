@@ -37,7 +37,7 @@
   .issue-legend {
     position: absolute;
     align-self: center;
-    /* left: 22em; */
+    left: 6em;
   }
 
   .the-issue-box .text-wrap {
@@ -58,14 +58,14 @@
     opacity: 0.8;
     font-size: 0.8em;
     text-align: center;
-    margin-right: auto;
+    margin-right: 14rem;
   }
 
   /* Stop Climate Change Text */
 
   .text-climate {
     height: 10em;
-    margin-right: 55%;
+    margin-right: 65%;
     margin-top: 20%;
   }
 
@@ -117,7 +117,7 @@
 
   /* Responsive Layout of What We Do section */
   .section-what-we-do {
-    height: 76rem;
+    height: 82rem;
   }
 
   .container-section-what-we-do {
@@ -137,10 +137,10 @@
 
   .text-mission {
     font-weight: bolder;
-    font-size: 1.6em;
+    font-size: 2.1rem;
     line-height: 1.2em;
     position: relative;
-    top: -8%;
+    top: -9%;
   }
 
   .what-we-do-boxes {
@@ -164,10 +164,9 @@
     position: relative;
     flex-flow: column nowrap;
     justify-content: space-around;
-    height: 15em;
-    width: 100%;
+    height: 17em;
     min-width: unset;
-    max-width: 35em;
+    max-width: 100%;
   }
 
   .common-box strong {
@@ -175,13 +174,13 @@
     font-weight: 550;
     line-height: 1.2em;
     position: absolute;
-    width: 45%;
+    width: 35%;
     left: 55%;
     top: 7%;
   }
 
   .common-box p {
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: lighter;
     line-height: 1.5em;
     position: absolute;
@@ -194,7 +193,7 @@
     position: relative;
     bottom: 15%;
     left: 15%;
-    width: 22%;
+    width: 12%;
     padding: auto;
     margin-left: 8%;
     font-size: 0.8em;
@@ -213,7 +212,7 @@
   }
 
   .container-section-did-you-know {
-    height: 100%;
+    height: 120%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -242,30 +241,33 @@
   }
 
   .take-action {
+    font-size: 1rem;
     position: relative;
-    top: -20em;
+    top: -25em;
   }
 
   .did-you-know-container {
     position: relative;
-    margin-top: 4em;
+    margin-top: 2em;
   }
 
   .did-you-know-wrap-box {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
-    height: 95%;
+    justify-content: flex-start;
+    gap: 4%;
+    /* height: 95%; */
+    margin-top: 3rem;
   }
 
   .did-you-know-wrap-box p {
     height: auto;
-    font-size: 0.65em;
-    line-height: 1.65em;
+    font-size: 0.95em;
+    line-height: 1.85em;
     width: 60%;
     position: relative;
-    left: 2em;
-    top: 3em;
+    left: 3em;
+    top: 2em;
   }
 
   .did-you-know-wrap-box strong {
@@ -290,6 +292,7 @@
   }
 
   .did-you-know-wrap-box .img-wrap {
+    margin-left: 2rem;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -313,12 +316,13 @@
 
   /* Responsive Layout of Stories Section */
   .section-stories {
-    height: 50rem;
+    height: 55rem;
   }
 
   .container-section-stories {
     height: 100%;
     display: flex;
+    width: 80%;
   }
 
   .stories-wrap {
@@ -328,41 +332,47 @@
   }
 
   .stories-quote {
+    padding: 0;
     position: relative;
     top: -3em;
-    left: 1.5em;
+    left: 2em;
     display: flex;
     flex-flow: row wrap;
     height: 14rem;
     width: 90%;
     justify-content: space-around;
   }
+  .stories-legend {
+    height: 2rem;
+    left: 6em;
+  }
 
   .quote {
     padding-top: 1em;
     font-weight: bolder;
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin: auto;
     line-height: 1.3em;
     width: 75%;
   }
 
   .quoted-by {
-    font-size: 0.65em;
+    font-size: 1em;
     margin: auto;
     margin-left: 12.5%;
     margin-top: 0;
   }
 
   .stories-wrap .read-more {
+    height: 1em;
     position: absolute;
-    top: 95%;
+    top: 97%;
     left: 10%;
   }
 
   /* Responsive Layout of Events and Latest News */
   .section-events {
-    height: 60em;
+    height: 70em;
   }
 
   .container-section-events {
@@ -373,7 +383,7 @@
 
   .container-section-events img {
     width: auto;
-    max-height: 15em;
+    height: 115%;
   }
 
   .text-take-action {
@@ -386,13 +396,15 @@
     display: flex;
     flex-flow: row nowrap;
     height: 15em;
+    justify-content: start;
   }
 
   .event-wrap {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    margin-left: 2em;
+    gap: 2rem;
+    margin-left: 4em;
     height: 140%;
   }
 
@@ -405,13 +417,13 @@
 
   .event-wrap p {
     font-weight: lighter;
-    font-size: 0.8em;
+    font-size: 1em;
     width: 100%;
     line-height: 1.4em;
   }
 
   .event-wrap .read-more {
-    font-size: 0.6em;
+    font-size: 1em;
     top: 0;
   }
 
@@ -425,7 +437,7 @@
     display: flex;
     flex-flow: row-reverse nowrap;
     height: 15em;
-    margin-top: 8em;
+    margin-top: 16em;
     margin-left: 0;
   }
 
@@ -445,7 +457,7 @@
   }
 
   .latest-news-wrap p {
-    font-size: 0.8em;
+    font-size: 1em;
     width: 90%;
     line-height: 1.4em;
   }
@@ -456,7 +468,7 @@
   }
 
   .latest-news-wrap .read-more {
-    font-size: 0.6em;
+    font-size: 1em;
   }
 
   .latest-news-legend {
@@ -492,7 +504,7 @@
     border: none;
     border-radius: 5em;
     position: relative;
-    left: -1em;
+    left: 0em;
   }
 
   .section-newsletter ::placeholder {

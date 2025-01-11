@@ -254,7 +254,8 @@
 
   .take-action {
     position: absolute;
-    top: 15em;
+    top: 14rem;
+    padding: 1rem;
   }
 
   .did-you-know-container {
@@ -345,7 +346,7 @@
 
   .stories-wrap img {
     display: inline;
-    width: 100%;
+    width: 107%;
     max-width: 27em;
   }
 

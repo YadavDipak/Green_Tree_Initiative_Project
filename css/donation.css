@@ -155,7 +155,7 @@ form .payment-form a {
   font-family: ‘flood-std’;
   color: #ffffff;
   font-size: 3.33em;
-  width: 30%;
+  width: 35%;
 }
 
 /* Footer CSS */
@@ -166,6 +166,7 @@ form .payment-form a {
 
 .container-footer #logo {
   top: 0 !important;
+  text-align: left;
 }
 
 /* Responsive Layout of Donation page for Tablets */
@@ -183,6 +184,7 @@ form .payment-form a {
 
   form {
     margin-top: 2.75em;
+    width: 100%;
   }
 
   .donation-form .text-wrap {
@@ -359,7 +361,7 @@ form .payment-form a {
   .container-footer #logo {
     top: 0 !important;
     margin: unset;
-    width: 15% !important;
+    width: 40% !important;
     text-align: left !important;
   }
 }
